@@ -1,0 +1,14 @@
+html {
+	background-image: url("images/stars-over-forest.jpg");
+	background-size: cover;
+}
+
+body {
+	background-image: none;
+	background-color: #ffffff00;
+}
+
+.navigation {
+	background-color: #141414;
+	width: 100%;
+}
