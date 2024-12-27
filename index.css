@@ -1,14 +1,67 @@
 html {
-	background-image: url("images/stars-over-forest.jpg");
+	background-image: url("images/sky-5114501_960_720.jpg");
 	background-size: cover;
 }
 
 body {
+	font-family: sans-serif;
 	background-image: none;
 	background-color: #ffffff00;
+	margin: 0px;
 }
 
 .navigation {
 	background-color: #141414;
 	width: 100%;
+	padding: 1rem;
+}
+
+.navlink {
+	color: #ffffff;
+	text-decoration: none;
+	padding: 1rem;
+	transition: 0.3s;
+}
+
+.navlink:hover{
+	background-color: #4d4d4d;
+	color: #ffffff;
+	transition: 0.3s;
+}
+
+.navtext{
+	background-color: #4d4d4d;
+	color: #ffffff;
+	text-decoration: none;
+	padding: 1rem;
+}
+
+.banner{
+	text-align: center;
+	font-family: fantasy;
+	font-size: 60px;
+	animation: technicolor 6s linear 0s infinite;
+}
+
+@keyframes technicolor {
+	from {
+		color: #6666ff;
+	}
+	10% {
+		color: #0099ff;
+	}
+	50% {
+		color: #00ff00;
+	}
+	75% {
+		color: #ff3399;
+	}
+	100% {
+		color: #6666ff;
+	}
+}
+
+.footer{
+	display: table-cell;
+	vertical-align: bottom;	
 }
