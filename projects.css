@@ -2,7 +2,7 @@
 
 
 html {
-	background-image: url("images/sky-5114501_960_720.jpg");
+	background-image: url("images/stars-over-forest.jpg");
 	background-size: cover;
 }
 
@@ -12,6 +12,7 @@ body {
 	background-image: none;
 	background-color: #ffffff00;
 	color: #ffffff;
+	backdrop-filter: blur(4px);
 }
 
 .navigation {
@@ -77,6 +78,35 @@ body {
 	height: calc(100vh - (3rem + 4rem)); /*Screen height minus navbar height plus footer height*/
 }
 
+.projects{
+	width: 100vh;
+	padding: 2rem;
+	border: 2px solid black;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #26262640;
+}
+
+.cell{
+	display: flex;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	left: 0px;
+	right: 0px;
+}
+
+.celltext{
+	padding-left: 4px;
+	padding-right: 4px;
+}
+
+.projimg{
+	height: 18vh;
+	width: 32;
+	padding-left: 4px;
+	padding-right: 4px;
+}
+
 .footer{
 	display: flex;
 	line-height: 4rem;
@@ -101,7 +131,7 @@ body {
 	padding-right: 1rem;
 }
 
-img{
+.imgicon{
 	vertical-align: middle;
 	height: 30px;
 	width: 30px;

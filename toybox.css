@@ -2,7 +2,7 @@
 
 
 html {
-	background-image: url("images/sky-5114501_960_720.jpg");
+	background-image: url("images/stars-over-forest.jpg");
 	background-size: cover;
 }
 
@@ -12,6 +12,7 @@ body {
 	background-image: none;
 	background-color: #ffffff00;
 	color: #ffffff;
+	backdrop-filter: blur(4px);
 }
 
 .navigation {
