@@ -75,7 +75,7 @@ body {
 	display: block;
 	padding-left: 4rem;
 	padding-right: 4rem;
-	height: calc(100vh - (3rem + 4rem)); /*Screen height minus navbar height plus footer height*/
+	/*height: calc(100vh - (3rem + 4rem)); /*Screen height minus navbar height plus footer height*/
 }
 
 .projects{
@@ -84,6 +84,7 @@ body {
 	border: 2px solid black;
 	margin-left: auto;
 	margin-right: auto;
+	margin-bottom: 4rem;
 	background-color: #26262640;
 }
 
@@ -98,13 +99,20 @@ body {
 .celltext{
 	padding-left: 4px;
 	padding-right: 4px;
+	width: 68vh;
+	line-height: 2rem;
 }
 
 .projimg{
 	height: 18vh;
-	width: 32;
+	width: 32vh;
 	padding-left: 4px;
 	padding-right: 4px;
+}
+
+.linkheader{
+	font-size: 30px;
+	color: #1482fa;
 }
 
 .footer{

@@ -76,6 +76,7 @@ body {
 	padding-left: 4rem;
 	padding-right: 4rem;
 	height: calc(100vh - (3rem + 4rem)); /*Screen height minus navbar height plus footer height*/
+	line-height: 2rem;
 }
 
 .footer{
