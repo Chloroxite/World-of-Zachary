@@ -110,6 +110,13 @@ body {
 	padding-right: 4px;
 }
 
+.specialimg{
+	height: 18vh;
+	width: 18vh;
+	padding-left: 4px;
+	padding-right: 4px;
+}
+
 .linkheader{
 	font-size: 30px;
 	color: #1482fa;
