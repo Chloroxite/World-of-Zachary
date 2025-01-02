@@ -3,15 +3,23 @@
 
 //why is this not a standard function in javascript........
 const sleep = (delay) => new Promise((resolve) => setTimeout(resolve, delay));
+let userInput;
+let isOutputting = false;
 
 //Wait until the page is actually freaking loaded...
 window.onload = function() {
 	terminalBoot();
 }
 
+//user input handling
+function onInput(ev){
+    
+}
+
 async function terminalBoot(){
 	let terminal = document.getElementById("terminal");	
     let stringBuffer;
+    isOutputting = true;
 	
 	//Begin "boot" sequence
     await writeText("Checking CPU...", terminal); 
@@ -40,20 +48,18 @@ async function terminalBoot(){
     await sleep(1000);
 
     await glitchText("\nOur revelations came a long time ago...", terminal);
+
+    isOutputting = false;
 }
 
 async function terminalSim(terminal){
+    //I know this is just sitting here unused, it'll get moved to the appropriate spot eventually.
     let manpages = { "help": 
 		"Available commands:"
 		+"\ncd"
 		+"\nls"
-		+"\ncat"
-	};
-    let userInput = "";
-
-    while(userInput != logout){
-        
-    }
+		+"\ncat";
+    
 }
 
 //write the text out like in those hacking movies.
@@ -85,3 +91,5 @@ async function glitchText(string, terminal){
     }
 }
 
+//Handle user input
+document.addEventListener("keydown", onInput);
